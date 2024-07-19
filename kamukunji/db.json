@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "5984",
+      "username": "Liam",
+      "password": "liam123"
+    },
+    {
+      "id": "d9db",
+      "username": "saladi k",
+      "password": "saladi123"
+    },
+    {
+      "id": "4e24",
+      "username": "123",
+      "password": "123"
+    },
+    {
+      "id": "4d69",
+      "username": "123",
+      "password": "123"
+    },
+    {
+      "id": "95ce",
+      "username": "ngeny g",
+      "password": "ngeny123"
+    },
+    {
+      "id": "d4bb",
+      "username": "kujn",
+      "password": "09867hu"
+    }
+  ],
+  "products": [
+    {
+      "id": "9b52",
+      "name": "Grass Carpet",
+      "price": "1242",
+      "img": "download (6).jpeg"
+    }
+  ]
+}

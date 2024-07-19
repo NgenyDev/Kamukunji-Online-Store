@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo h4 mb-0"><a href="/" class="text-white text-decoration-none">Kamukunji Online Store</a></div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="/shop.html" class="nav-link text-white">Shop</a></li>
+                    <li class="nav-item"><a href="/cart.html" class="nav-link text-white">Cart</a></li>
+                    <li class="nav-item"><a href="/contact.html" class="nav-link text-white">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" class="form-control" placeholder="Search...">
+            </div>
+        </div>
+    </header>
+    <h1>Login</h1>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+
+    <script>
+        document.getElementById('login-form').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const response = await fetch('http://localhost:3000/users?username=' + encodeURIComponent(username) + '&password=' + encodeURIComponent(password));
+            const users = await response.json();
+
+            if (users.length > 0) {
+                alert('Login successful!');
+                // Optionally, redirect to another page
+                window.location.href = '/';
+            } else {
+                alert('Invalid username or password!');
+            }
+        });
+    </script>
+</body>
+</html>
