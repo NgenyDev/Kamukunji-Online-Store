@@ -29,6 +29,11 @@
       "id": "d4bb",
       "username": "kujn",
       "password": "09867hu"
+    },
+    {
+      "id": "b39b",
+      "username": "Liam",
+      "password": "son123"
     }
   ],
   "products": [
@@ -36,6 +41,24 @@
       "id": "9b52",
       "name": "Grass Carpet",
       "price": "1242",
+      "img": "download (6).jpeg"
+    },
+    {
+      "id": "f07f",
+      "name": "Wallpaper",
+      "price": "90989",
+      "img": "download (7).jpeg"
+    },
+    {
+      "id": "d805",
+      "name": "duvets",
+      "price": "2499",
+      "img": "download (8).jpeg"
+    },
+    {
+      "id": "eca2",
+      "name": "Curtain rods",
+      "price": "1250",
       "img": "download (6).jpeg"
     }
   ]

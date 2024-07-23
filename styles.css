@@ -198,19 +198,6 @@ footer {
     }
 
     .hero h1 {
-        font-size: 32px;
-    }
-
-    .hero p {
         font-size: 17px;
-    }
-
-    .search-bar input {
-        padding: 2px;
-        font-size: 12px;
-    }
-
-    main {
-        margin: 0 auto;
     }
 }
