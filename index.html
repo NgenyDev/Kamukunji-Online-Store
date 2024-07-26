@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kamukunji Online Shop</title>
 
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="/css/style.css">
-</head>
 
+  
+</head>
 <body>
   <header class="header">
     <a href="#" class="logo"><i class="fas fa-shopping-basket">Kamukunji</i></a>
@@ -32,53 +31,27 @@
       <div class="fas fa-user" id="login-btn"></div>
     </div>
 
-    <form action="" class="search-form">
+    <form action="" class="search-form" id="search-form">
       <input type="search" name="" id="search-box" placeholder="search here...">
       <label for="search-box" class="fas fa-search"></label>
     </form>
-
-    <div class="shopping-cart">
-      <div class="box">
-        <i class="fas fa-trash"></i>
-        <img src="/images/blinds.jpeg" alt="">
-        <div class="content">
-          <h3>Blinds</h3>
-          <span class="price">Ksh:2000/-</span>
-          <span class="quantity">qty : 1</span>
-        </div>
-      </div>
-      <div class="box">
-        <i class="fas fa-trash"></i>
-        <img src="/images/curtain1.jpeg" alt="">
-        <div class="content">
-          <h3>Curtains</h3>
-          <span class="price">Ksh:2000/-</span>
-          <span class="quantity">qty : 1</span>
-        </div>
-      </div>
-      <div class="box">
-        <i class="fas fa-trash"></i>
-        <img src="/images/red.jpeg" alt="">
-        <div class="content">
-          <h3>Wall to wall carpet</h3>
-          <span class="price">Ksh:3000/-</span>
-          <span class="quantity">qty : 1</span>
-        </div>
-      </div>
-      <div class="total">total : Ksh:7000/-</div>
-      <a href="#" class="btn">checkout</a>
+    
+    <div class="shopping-cart" id="shopping-cart">
+      <div class="total">total : Ksh:0/-</div>
+      <a href="#" class="btn" id="checkout-btn">checkout</a>
     </div>
-
-    <form action="" class="login-form">
-      <h3>login now</h3>
-      <input type="email" name="" placeholder="your email" id="" class="box">
-      <input type="password" name="" placeholder="your password" id="" class="box">
-      <p>forget your password <a href="#">click here</a></p>
-      <p>don't have an account <a href="#">create now</a></p>
-      <input type="submit" name="" id="" value="login now" class="btn">
+    
+    <form action="" class="login-form" id="login-form">
+      <h3>Login Now</h3>
+      <input type="email" name="email" placeholder="Your Email" id="login-email" class="box" required>
+      <input type="password" name="password" placeholder="Your Password" id="login-password" class="box" required>
+      <p>Forgot your password? <a href="#" id="forgot-password-link">Click Here</a></p>
+      <p>Don't have an account? <a href="#" id="create-account-link">Create Now</a></p>
+      <input type="submit" name="submit" id="login-submit" value="Login Now" class="btn">
     </form>
   </header>
-  <!--home section-->
+
+  <!-- home section -->
   <section class="home" id="home">
     <div class="content">
       <h3>Welcome to <span>Kamukinji</span> Online Store</h3>
@@ -87,318 +60,66 @@
     </div>
   </section>
 
-  <!--Features section-->
+  <!-- features section -->
   <section class="features" id="features">
-
     <h1 class="heading">our <span>features</span></h1>
-
-    <div class="box-container">
-
-      <div class="box">
-        <img src="/images/carpet.jpeg" alt="">
-        <h3>brand new and durable</h3>
-        <p>Durability is a key feature that offers numerous advantages, from cost-effectiveness and reliability to environmental benefits and peace of mind. Durable products provide long-term value, require less maintenance, and contribute to a sustainable lifestyle. By choosing durable items, you invest in quality and longevity, ensuring satisfaction and performance for the long haul.</p>
-        <a href="#" class="btn">read more</a>
-      </div>
-      <div class="box">
-        <img src="/images/freedelevery.jpg" alt="">
-        <h3>Free Delivery</h3>
-        <p>In today's fast-paced world, convenience is key. Free delivery is a highly attractive feature that can significantly enhance your shopping experience. Whether you're ordering online or making a purchase in-store, we promise you of free delivery offers and numerous benefits that can make your life easier and more enjoyable. We value you, order now, we deliver instantly.</p>
-        <a href="#" class="btn">read more</a>
-      </div>
-      <div class="box">
-        <img src="/images/payments.jpeg" alt="">
-        <h3>easy payments</h3>
-        <p>Our platform has a Seamless and Flexible Payment method.
-          In the evolving landscape of commerce, easy payment options have become a crucial feature that enhances the shopping experience. Offering flexibility, convenience, and security, easy payments cater to the diverse needs of today's consumers.</p>
-        <a href="#" class="btn">read more</a>
-      </div>
+    <div class="box-container" id="features-container">
+      <!-- Feature boxes will be inserted here -->
     </div>
   </section>
 
-  <!--product section-->
+  <!-- product section -->
   <section class="products" id="products">
-
     <h1 class="heading">our <span>products</span></h1>
-
-    <div class="swiper product-slider">
+    <!-- First Swiper Slider -->
+    <div class="swiper product-slider" id="product-slider-1">
       <div class="swiper-wrapper">
-        <div class="swiper-slide box">
-          <img src="/images/grass.jpeg" alt="">
-          <h3>Grass Carpet</h3>
-          <div class="price">Ksh:2000/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/redcarpet.jpeg" alt="">
-          <h3>Vip Carpet</h3>
-          <div class="price">Ksh:3000/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/flowered.jpeg" alt="">
-          <h3>flowered Carpet</h3>
-          <div class="price">Ksh:4500/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/red.jpeg" alt="">
-          <h3>Red Carpet</h3>
-          <div class="price">Ksh:3000/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
+        <!-- Product slides will be inserted here -->
       </div>
     </div>
-
-    <div class="swiper product-slider">
+    <!-- Second Swiper Slider -->
+    <div class="swiper product-slider" id="product-slider-2">
       <div class="swiper-wrapper">
-        <div class="swiper-slide box">
-          <img src="/images/rod.jpeg" alt="">
-          <h3>Curtain Rods</h3>
-          <div class="price">Ksh:1500/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/blinds.jpeg" alt="">
-          <h3>Window Blinds</h3>
-          <div class="price">Ksh:2000/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/curtain1.jpeg" alt="">
-          <h3>Premium CUrtains</h3>
-          <div class="price">Ksh:3000/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/curtain3.jpeg" alt="">
-          <h3>Custom Curtains</h3>
-          <div class="price">Ksh:1200/-</div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
+        <!-- Product slides will be inserted here -->
       </div>
     </div>
   </section>
 
-  <!--categories section-->
+  <!-- categories section -->
   <section class="categories" id="categories">
     <h1 class="heading">product <span>categories</span></h1>
-
     <div class="box-container">
-      <div class="box">
-        <img src="images/carpet.jpeg" alt="">
-        <h3>Carpets</h3>
-        <p>upto 45% off</p>
-        <a href="#" class="btn">shop now</a>
-      </div>
-      <div class="box">
-        <img src="images/curtains1.jpeg" alt="">
-        <h3>Curtains</h3>
-        <p>upto 45% off</p>
-        <a href="#" class="btn">shop now</a>
-      </div>
-      <div class="box">
-        <img src="images/redcarpet.jpeg" alt="">
-        <h3>VIP Carpets</h3>
-        <p>upto 45% off</p>
-        <a href="#" class="btn">shop now</a>
-      </div>
-      <div class="box">
-        <img src="images/grass.jpeg" alt="">
-        <h3>Grass Carpets</h3>
-        <p>upto 45% off</p>
-        <a href="#" class="btn">shop now</a>
-      </div>
+      <!-- Added dynamically via js -->
     </div>
   </section>
-  <!--Reviews section-->
+
+  <!-- review section -->
   <section class="review" id="review">
-
     <h1 class="heading">customer's <span>review</span></h1>
-
     <div class="swiper review-slider">
-
       <div class="swiper-wrapper">
-
-        <div class="swiper-slide box">
-          <img src="/images/customer1.jpeg" alt="">
-          <p>The platform is incredibly user-friendly and has significantly streamlined our business processes. The customer support team is responsive and helpful, addressing our queries promptly. Highly recommended!</p>
-          <h3>Osir Philip</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/customer2.jpeg" alt="">
-          <p>This platform has transformed the way we manage our business operations. The integration with other tools we use is seamless, and the analytics provided are insightful. A minor improvement in the mobile app would make it perfect.</p>
-          <h3>Mareen Watetu</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/customer3.jpeg" alt="">
-          <p>Exceptional experience! The platform's features are comprehensive and easy to use. We've seen a noticeable improvement in productivity since we started using it. Customer support is top-notch as well.</p>
-          <h3>Nancy Magoko</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/customer4.jpeg" alt="">
-          <p>The platform offers a lot of great features, but there's a bit of a learning curve. The user interface could be more intuitive. However, once you get the hang of it, it works well.</p>
-          <h3>Shalyne Chepngeno</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-        <div class="swiper-slide box">
-          <img src="/images/customer5.jpeg" alt="">
-          <p>Outstanding service! The platform is robust and reliable, and the support team goes above and beyond to ensure everything runs smoothly. It has been a game-changer for our business.</p>
-          <h3>Caleb Karimi</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
+        <!-- Added dynamically -->
       </div>
     </div>
   </section>
 
-
-  <!--blog section-->
+  <!-- blog section -->
   <section class="blogs" id="blogs">
     <h1 class="heading">our <span>blogs</span></h1>
-
     <div class="box-container">
-      <div class="box">
-        <img src="images/grass.jpeg" alt="">
-        <div class="content">
-          <div class="icons">
-            <a href="#"><i class="fas fa-user"></i>by user</a>
-            <a href="#"><i class="fas fa-calender"></i>25 july 2024</a>
-          </div>
-          <h3>Learn more about Grass carpet</h3>
-          <p>
-            When it comes to adding a touch of nature to your home or office, grass carpets are a unique and versatile option. Not only do they bring the beauty of the outdoors inside, but they also offer a range of practical benefits. In this blog, we'll explore everything you need to know about grass carpets, from their types and benefits to installation tips and maintenance.</p>
-          <a href="#" class="btn">read more</a>
-        </div>
-      </div>
-      <div class="box">
-        <img src="images/curtain1.jpeg" alt="">
-        <div class="content">
-          <div class="icons">
-            <a href="#"><i class="fas fa-user"></i>by user</a>
-            <a href="#"><i class="fas fa-calender"></i>25 july 2024</a>
-          </div>
-          <h3>Curtains to Elevate Your Home Decor with Style and Function</h3>
-          <p>
-            Curtains are more than just window coverings; they are a vital element in home decor that can transform the look and feel of any room. Whether you’re aiming for a touch of elegance, a pop of color, or practical light control, choosing the right curtains can make all the difference. In this blog, we'll delve into the various types of curtains, their benefits, and tips on selecting and maintaining them to enhance your living space.</p>
-          <a href="#" class="btn">read more</a>
-        </div>
-      </div>
-      <div class="box">
-        <img src="images/red.jpeg" alt="">
-        <div class="content">
-          <div class="icons">
-            <a href="#"><i class="fas fa-user"></i>by user</a>
-            <a href="#"><i class="fas fa-calender"></i>25 july 2024</a>
-          </div>
-          <h3>Wall to Wall Carpet</h3>
-          <p>Wall-to-wall carpets are a timeless flooring choice that brings comfort, warmth, and style to any space. Whether you're renovating your home or moving into a new one, wall-to-wall carpeting offers a range of benefits that make it a popular choice among homeowners. In this blog, we’ll explore the advantages of wall-to-wall carpets, the different types available, and tips for choosing and maintaining them to create a cozy and inviting atmosphere in your home.</p>
-          <a href="#" class="btn">read more</a>
-        </div>
-      </div>
-      <div class="box">
-        <img src="images/blinds2.jpeg" alt="">
-        <div class="content">
-          <div class="icons">
-            <a href="#"><i class="fas fa-user"></i>by user</a>
-            <a href="#"><i class="fas fa-calender"></i>25 july 2024</a>
-          </div>
-          <h3>Enhancing Productivity and Style in the Workplace</h3>
-          <p>
-            Office blinds are an essential element of workplace design, providing not only practical benefits but also contributing to the overall aesthetic and atmosphere. Whether you're setting up a new office or renovating an existing one, choosing the right blinds can make a significant difference in comfort, productivity, and energy efficiency. In this blog, we’ll explore the various types of office blinds, their benefits, and tips for selecting and maintaining them to create an optimal work environment.</p>
-          <a href="#" class="btn">read more</a>
-        </div>
-      </div>
+      <!-- Blog entries will be dynamically inserted here -->
     </div>
   </section>
+
+  <!-- Blog Modal -->
+  <div id="blog-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="modal-blog-content">
+        <!-- Dynamic content will be loaded here -->
+      </div>
+    </div>
+  </div>
 
   <section class="footer">
     <div class="box-container">
@@ -414,15 +135,32 @@
       </div>
       <div class="box">
         <h3>contact info</h3>
-        <a href="#" class="links"> <i class="fas fa-arrow-phone">+254-724-749-550</i></a>
-        <a href="#" class="links"> <i class="fas fa-arrow-phone">+254-724-749-550</i></a>
-        <a href="#" class="links"> <i class="fas fa-arrow-envelope">+254-724-749-550</i>gk@gmail.com</a>
-        <a href="#" class="links"> <i class="fas fa-map-marker-alt">+254-724-749-550</i></a>
+        <a href="#" class="links"><i class="fas fa-phone"></i>+254-724-749-550</a>
+        <a href="#" class="links"><i class="fas fa-envelope"></i>gk@gmail.com</a>
+        <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Nairobi, Kenya</a>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+        <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+      </div>
+      <div class="box">
+        <h3>newsletter</h3>
+        <p>subscribe for latest updates</p>
+        <input type="email" name="" class="email" placeholder="your email" id="">
+        <input type="submit" name="" value="subscribe" id="" class="btn">
+        <img src="images/payments.jpeg" class="payment-img" alt="">
       </div>
     </div>
+    <div class="credit">created by <span>Gk</span> | all rights reserved</div>
   </section>
+
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
+  
 </body>
-
 </html>

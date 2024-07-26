@@ -1,0 +1,184 @@
+{
+  "features": [
+    {
+      "image": "/images/carpet.jpeg",
+      "title": "Brand New and Durable",
+      "description": "Durability is a key feature that offers numerous advantages, from cost-effectiveness and reliability to environmental benefits and peace of mind. Durable products provide long-term value, require less maintenance, and contribute to a sustainable lifestyle. By choosing durable items, you invest in quality and longevity, ensuring satisfaction and performance for the long haul.",
+      "link": "#"
+    },
+    {
+      "image": "/images/freedelevery.jpg",
+      "title": "Free Delivery",
+      "description": "In today's fast-paced world, convenience is key. Free delivery is a highly attractive feature that can significantly enhance your shopping experience. Whether you're ordering online or making a purchase in-store, we promise you of free delivery offers and numerous benefits that can make your life easier and more enjoyable. We value you, order now, we deliver instantly.",
+      "link": "#"
+    },
+    {
+      "image": "/images/payments.jpeg",
+      "title": "Easy Payments",
+      "description": "Our platform has a Seamless and Flexible Payment method. In the evolving landscape of commerce, easy payment options have become a crucial feature that enhances the shopping experience. Offering flexibility, convenience, and security, easy payments cater to the diverse needs of today's consumers.",
+      "link": "#"
+    }
+  ],
+  "products": [
+    {
+      "image": "/images/grass.jpeg",
+      "title": "Grass Carpet",
+      "price": 2000,
+      "rating": 4
+    },
+    {
+      "image": "/images/redcarpet.jpeg",
+      "title": "Vip Carpet",
+      "price": 3000,
+      "rating": 4
+    },
+    {
+      "image": "/images/flowered.jpeg",
+      "title": "Flowered Carpet",
+      "price": 4500,
+      "rating": 4
+    },
+    {
+      "image": "/images/red.jpeg",
+      "title": "Red Carpet",
+      "price": 3000,
+      "rating": 4
+    },
+    {
+      "image": "/images/rod.jpeg",
+      "title": "Curtain Rods",
+      "price": 1500,
+      "rating": 4
+    },
+    {
+      "image": "/images/blinds.jpeg",
+      "title": "Window Blinds",
+      "price": 1800,
+      "rating": 4
+    },
+    {
+      "image": "/images/curtain1.jpeg",
+      "title": "Premium Curtains",
+      "price": 3600,
+      "rating": 4
+    },
+    {
+      "image": "/images/curtain3.jpeg",
+      "title": "Custom Curtains",
+      "price": 1200,
+      "rating": 4
+    }
+  ],
+  "categories": [
+    {
+      "image": "/images/carpet.jpeg",
+      "title": "Carpets",
+      "discount": "upto 45% off",
+      "link": "#"
+    },
+    {
+      "image": "/images/curtains1.jpeg",
+      "title": "Curtains",
+      "discount": "upto 45% off",
+      "link": "#"
+    },
+    {
+      "image": "/images/redcarpet.jpeg",
+      "title": "VIP Carpets",
+      "discount": "upto 45% off",
+      "link": "#"
+    },
+    {
+      "image": "/images/grass.jpeg",
+      "title": "Grass Carpets",
+      "discount": "upto 45% off",
+      "link": "#"
+    }
+  ],
+  "reviews": [
+    {
+      "image": "/images/customer1.jpeg",
+      "text": "The platform is incredibly user-friendly and has significantly streamlined our business processes. The customer support team is responsive and helpful, addressing our queries promptly. Highly recommended!",
+      "name": "Osir Philip",
+      "rating": 4.5
+    },
+    {
+      "image": "/images/customer2.jpeg",
+      "text": "This platform has transformed the way we manage our business operations. The integration with other tools we use is seamless, and the analytics provided are insightful. A minor improvement in the mobile app would make it perfect.",
+      "name": "Mareen Watetu",
+      "rating": 4.5
+    },
+    {
+      "image": "/images/customer3.jpeg",
+      "text": "Exceptional experience! The platform's features are comprehensive and easy to use. We've seen a noticeable improvement in productivity since we started using it. Customer support is top-notch as well.",
+      "name": "Nancy Magoko",
+      "rating": 4.5
+    },
+    {
+      "image": "/images/customer4.jpeg",
+      "text": "The platform offers a lot of great features, but there's a bit of a learning curve. The user interface could be more intuitive. However, once you get the hang of it, it works well.",
+      "name": "Shalyne Chepngeno",
+      "rating": 4.5
+    },
+    {
+      "image": "/images/customer5.jpeg",
+      "text": "Outstanding service! The platform is robust and reliable, and the support team goes above and beyond to ensure everything runs smoothly. It has been a game-changer for our business.",
+      "name": "Caleb Karimi",
+      "rating": 4.5
+    }
+  ],
+  "blogs": [
+    {
+      "image": "/images/grass.jpeg",
+      "title": "Learn more about Grass carpet",
+      "author": "user",
+      "date": "25 July 2024",
+      "summary": "When it comes to adding a touch of nature to your home or office, grass carpets are a unique and versatile option. Not only do they bring the beauty of the outdoors inside, but they also offer a range of practical benefits. In this blog, we'll explore everything you need to know about grass carpets, from their types and benefits to installation tips and maintenance.",
+      "content": "This is the full content of blog post 2. It provides in-depth information about another topic covered in this blog post.",
+      "link": "#"
+    },
+    {
+      "image": "/images/curtain1.jpeg",
+      "title": "Curtains to Elevate Your Home Decor with Style and Function",
+      "author": "user",
+      "date": "25 July 2024",
+      "summary": "Curtains are more than just window coverings; they are a vital element in home decor that can transform the look and feel of any room. Whether you’re aiming for a touch of elegance, a pop of color, or practical light control, choosing the right curtains can make all the difference. In this blog, we'll delve into the various types of curtains, their benefits, and tips on selecting and maintaining them to enhance your living space.",
+      "content": "This is the full content of blog post 2. It provides in-depth information about another topic covered in this blog post.",
+      "link": "#"
+    },
+    {
+      "image": "/images/red.jpeg",
+      "title": "Wall to Wall Carpet",
+      "author": "user",
+      "date": "25 July 2024",
+      "summary": "Wall-to-wall carpets are a timeless flooring choice that brings comfort, warmth, and style to any space. Whether you're renovating your home or moving into a new one, wall-to-wall carpeting offers a range of benefits that make it a popular choice among homeowners. In this blog, we’ll explore the advantages of wall-to-wall carpets, the different types available, and tips for choosing and maintaining them to create a cozy and inviting atmosphere in your home.",
+      "content": "This is the full content of blog post 2. It provides in-depth information about another topic covered in this blog post.",
+      "link": "#"
+    },
+    {
+      "image": "/images/blinds2.jpeg",
+      "title": "Enhancing Productivity and Style in the Workplace",
+      "author": "user",
+      "date": "25 July 2024",
+      "summary": "Office blinds are an essential element of workplace design, providing not only practical benefits but also contributing to the overall aesthetic and atmosphere. Whether you're setting up a new office or renovating an existing one, choosing the right blinds can make a significant difference in comfort, productivity, and energy efficiency. In this blog, we’ll explore the various types of office blinds, their benefits, and tips for selecting and maintaining them to create an optimal work environment.",
+      "content": "This is the full content of blog post 2. It provides in-depth information about another topic covered in this blog post.",
+      "link": "#"
+    }
+  ],
+  "users": [
+    {
+      "email": "user@example.com",
+      "password": "password123"  
+    }
+  ],
+  "loginResponses": {
+    "success": {
+      "success": true,
+      "message": "Login successful!"
+    },
+    "failure": {
+      "success": false,
+      "message": "Invalid email or password."
+    }
+  }
+}
